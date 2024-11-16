@@ -34,7 +34,6 @@ Are you a tech guy? Want to ask her out in a way she’ll never forget? DateByte
    - Date and time selection
    - Food preferences
    - Movie selection
-   - Podi tharucca preference
    - Excitement level
 3. When she completes it:
    - You'll receive an email with her choices
