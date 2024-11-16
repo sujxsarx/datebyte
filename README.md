@@ -7,7 +7,6 @@
 ![GitHub](https://img.shields.io/github/license/tharushkadinujaya05/datebyte)
 ![Screen Recording Nov 17 2024](https://github.com/user-attachments/assets/707f67f6-c38a-41ae-99e8-c34cfbede8fd)
 
-![Screen Recording Nov 17 2024](https://github.com/user-attachments/assets/c71103d4-b81c-4d86-bc69-87658a3ffc00)
 
 Are you a tech guy? Want to ask her out in a way she’ll never forget? DateByte lets you send the cutest, tech-inspired date invite—because who says coding can’t be romantic? 🤨
 </div>
