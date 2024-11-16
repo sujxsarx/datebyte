@@ -1,4 +1,4 @@
-# Date Byte 
+# Date Byte 💝
 
 <div align="left">
 
@@ -6,22 +6,24 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/tharushkadinujaya05/obsiai/datebyte)
 ![GitHub](https://img.shields.io/github/license/tharushkadinujaya05/datebyte)
 
-A powerful AI assistant plugin for Obsidian (https://obsidian.md) inspired by Notion's AI chatbot. This plugin provides an interactive chatbot powered by Google's Gemini AI, adding a floating chat interface to your Obsidian workspace. It allows you to interact with AI for note summarization, brainstorming, translations, and more.
-
-
-
+A magical web application designed to make asking someone on a date a delightful and interactive experience! Built with Next.js, TypeScript, and Tailwind CSS.
 
 </div>
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [💌 How It Works](#-how-it-works)
+- [✨ Features](#-features)
+- [🚀 Installation](#-installation)
+- [📧 Email Setup](#-email-setup)
+- [🌐 Vercel Deployment](#-vercel-deployment)
+- [🎨 Customization](#-customization)
+- [📄 License](#-license)
+- [💖 Credits](#-credits)
+- [🤝 Contributing](#-contributing)
+- [🔧 Troubleshooting](#-troubleshooting)
+- [🐛 Bug Reports](#-bug-reports)
+- [💖 Support](#-support)
 
 ## 💌 How It Works
 
@@ -38,37 +40,39 @@ A powerful AI assistant plugin for Obsidian (https://obsidian.md) inspired by No
    - The response is saved as JSON
    - You can view it in the admin page
 
-## Features
+## ✨ Features
 
-- **Interactive Steps**: Guide your date through a series of fun and engaging steps.
-- **Date and Time Selection**: Allow your date to choose a convenient time.
-- **Food and Movie Choices**: Let your date select their favorite food and movie.
-- **Excitement Rating**: Gauge your date's excitement level.
-- **Confetti Animation**: Celebrate with a confetti animation when your date accepts.
+- **Interactive Steps**: Guide your date through a series of fun and engaging steps
+- **Date and Time Selection**: Allow your date to choose a convenient time
+- **Food and Movie Choices**: Let your date select their favorite food and movie
+- **Excitement Rating**: Gauge your date's excitement level
+- **Confetti Animation**: Celebrate with a confetti animation when your date accepts
 
-## Installation
+## 🚀 Installation
 
 To get started with the Date Proposal App, follow these steps:
 
 1. Clone the repository:
 ```sh
-    git clonehttps://github.com/tharushkadinujaya05/datebyte.git
+git clone https://github.com/tharushkadinujaya05/datebyte.git
 ```
+
 2. Navigate to the project directory:
 ```sh
-    cd dataebyte
+cd datebyte
 ```
+
 3. Install the dependencies:
 ```sh
-    npm install
+npm install
 ```
 
 4. Run the development server:
 ```sh
-    npm run dev
+npm run dev
 ```
-Open your browser and navigate to http://localhost:3000 to see the app in action.
 
+Open your browser and navigate to http://localhost:3000 to see the app in action.
 
 ## 📧 Email Setup
 
@@ -80,21 +84,22 @@ To enable email notifications:
    - Go to Security > 2-Step Verification > App passwords
    - Select "Mail" and "Other"
    - Copy the generated password
-4. Update your `.env.local` file with your Gmail and the app password
-- `EMAIL_USER`: Gmail address for sending notifications
-- `EMAIL_APP_PASSWORD`: Gmail app password (Generate from Google Account settings)
+4. Update your `.env.local` file with:
+```env
+EMAIL_USER=your.gmail@gmail.com
+EMAIL_APP_PASSWORD=your_gmail_app_password
+```
 
-## 🚀 Vercel Deployment
+## 🌐 Vercel Deployment
 
 1. Push your code to GitHub
 2. Go to [Vercel](https://vercel.com)
 3. Import your GitHub repository
-4. Add these Environment Variables in Vercel project settings:
-   ```
-   EMAIL_USER=your.gmail@gmail.com
-   EMAIL_APP_PASSWORD=your_gmail_app_password
-   ```
-
+4. Add Environment Variables in Vercel project settings:
+```env
+EMAIL_USER=your.gmail@gmail.com
+EMAIL_APP_PASSWORD=your_gmail_app_password
+```
 
 ## 🎨 Customization
 
@@ -138,16 +143,21 @@ Found a bug? Please open an issue with:
 - Actual behavior
 - Steps to reproduce
 
-
 ## 💖 Support
 
-If you find this plugin helpful:
+If you find this project helpful:
 
 - ⭐ Star the repository
 - 🐛 Report issues on GitHub
 - 💡 Submit feature requests
- <p><a href="https://www.buymeacoffee.com/neo_3xd"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" alt="neo_3xd" /></a></p><br><br>
 
+<p>
+  <a href="https://www.buymeacoffee.com/neo_3xd">
+    <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" alt="neo_3xd" />
+  </a>
+</p>
+
+<br><br>
 
 ---
 
