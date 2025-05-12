@@ -234,19 +234,19 @@ export default function EnchantingDateProposalApp() {
     // Step 3: Movie Selection
     <motion.div key="step3" className="text-center" {...fadeInUp}>
       <h2 className="text-3xl font-bold mb-6 text-pink-600">
-        What shall we watch together?
+        Where shall we go together?
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          "The Notebook",
-          "La La Land",
-          "Titanic",
-          "Pride and Prejudice",
-          "Anyone But You",
-          "Past Lives",
-          "Love at First Sight",
-          "Through My Window 3",
-          "Something else",
+          "Picnic 🧺",
+          "Movies 🎬",
+          "Broadway show 🎭",
+          "Go Karting 🏎️",
+          "Karaoke 🎤",
+          "Shopping 🛍️",
+          "Concert 🎶",
+          "Road Trip 🚗",
+          "Surprise me 🎁",
         ].map((movie) => (
           <motion.button
             key={movie}
@@ -254,9 +254,9 @@ export default function EnchantingDateProposalApp() {
             whileTap={{ scale: 0.95 }}
             className="bg-white text-pink-600 hover:bg-pink-100 font-bold py-4 px-6 rounded-lg shadow-md transition-colors duration-300"
             onClick={() => {
-              if (movie === "Something else") {
+              if (movie === "Surprise me 🎁") {
                 const customMovie = prompt(
-                  "What movie would you like to watch?"
+                  "Where else would you like to go?"
                 );
                 if (customMovie) handleAnswer("movie", customMovie);
               } else {
@@ -264,7 +264,6 @@ export default function EnchantingDateProposalApp() {
               }
             }}
           >
-            <Film className="mx-auto mb-2" />
             {movie}
           </motion.button>
         ))}
