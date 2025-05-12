@@ -21,7 +21,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Heart, Star, Coffee, Film, Utensils, Clock } from "lucide-react";
+import {  Heart,
+  Star,
+  Coffee,
+  Film,
+  Utensils,
+  Clock,
+  Pizza,
+  Flame,
+  Soup,
+  CupSoda } from "lucide-react";
 import confetti from "canvas-confetti";
 
 interface Answers {
@@ -186,11 +195,11 @@ export default function EnchantingDateProposalApp() {
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          { name: "Lasagna", icon: <Utensils /> },
-          { name: "Chicken Pie", icon: <Utensils /> },
-          { name: "Chicken Shawarma", icon: <Utensils /> },
-          { name: "Snack Platter", icon: <Coffee /> },
-          { name: "Mix rice", icon: <Utensils /> },
+          { name: "Pizza", icon: <Pizza /> },
+          { name: "Pasta", icon: <Utensils /> },
+          { name: "Korean BBQ", icon: <Flame /> },
+          { name: "Ramen", icon: <Soup /> },
+          { name: "Red Chilli", icon: <CupSoda /> }, // Or you can use <Flame /> again
         ].map(({ name, icon }) => (
           <motion.button
             key={name}
